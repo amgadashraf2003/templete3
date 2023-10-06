@@ -1,0 +1,281 @@
+ 
+
+/*  start texts */
+.txt-c{
+    text-align: center;
+}
+.tran-c{
+    text-transform: capitalize;
+}
+.tran-u{
+    text-transform: uppercase;
+}
+.txt-r{
+    text-align: right;
+}
+
+/*  end texts */
+/* start flexs */
+.ds-f{
+    display: flex;
+}
+.fx-1{
+    flex: 1;
+}
+/* end flexs */
+/* start fonts  */
+.fw-7{
+    font-weight: 700;
+}
+.fw-9{
+    font-weight: 900;
+}
+.fw-b{
+    font-weight: bold;
+}
+
+.fs-13{
+    font-size: 13px ;
+}
+.fs-18{
+    font-size: 18px ;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-20{
+    font-size: 20px;
+}
+/* end fonts  */
+/*  start padding */
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+.p-30{
+    padding: 30px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.pb-5{
+    padding-bottom: 5px;
+}
+/* end padding */
+/* margin  */
+
+.m-5{
+    margin: 5px;
+}
+.m-10{
+    margin: 10px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+.mr-a{
+    margin-right: auto;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-5{
+    margin-bottom:5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.ml-a{
+    margin-left: auto;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+
+/* end margin  */
+/* start position */
+.p-r{
+    position: relative;
+}
+.p-a{
+    position: absolute;
+}
+/* end position */
+/* start colors */
+.c-b{
+    color: black;
+}
+.c-g{
+    color:#777;
+}
+ 
+.c-best{
+    color: #f59e0b;
+}
+.c-green{
+    color: #22c55e;
+}
+.c-blue{
+    color:#0075ff;
+}
+.c-red{
+    color:#f44336;
+}
+.bk-w{
+    background-color: white;
+}
+.bk-g{
+    background-color:#88888857;
+}
+.btn-b-w{
+    background-color: #0075ff;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn-b-red{
+    background-color:  #f44336  ;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn-g-b{
+     
+    background-color: #77777763;
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* end colors  */
+/* start width */
+.w-full{
+    width: 100%;
+}
+.w-fit{
+    width: fit-content;
+}
+/* end width  */
+/* picture  */
+.w-h-100p{
+    width: 100px;
+    height:100px;
+}
+.w-h-20{
+    width: 20px;
+    height:20px;
+}
+.w-h-45{
+    width: 45px;
+    height:45px;
+}
+
+/* end picture  */
+/* start border */
+.bb-1g{
+border-bottom: 1px solid #77777770;
+}
+.raduis-half{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.raduis-5{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* end border  */
+/* justify content  */
+.df-js-ac{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.align-c{
+    align-items: center;
+}
+.justify-c{
+    justify-content: center;
+}
+.justify-fe{
+    justify-content: flex-end;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+
+/* end justify content  */
+/* display    */
+
+    @media  (max-width:767px) {
+        .hide-mobile{
+            display: none;
+        }
+
+    }
+    .d-b{
+        display: block;
+    }
+ 
+    .dg-gtc-200{
+        display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(200px , 1fr));
+    }
+    .dg-gtc-250{
+        display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(250px , 1fr));
+    }
+    .dg-gtc-300{
+        display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(300px , 1fr));
+    }
+     
+     
+    /*  end display  */
+    /* start of opacity */
+    .op-2{
+        opacity: .2;
+    }
+    .op-8{
+        opacity: .8;
+    }
+    /* end of opacity  */
